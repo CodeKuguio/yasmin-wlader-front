@@ -5,6 +5,6 @@ import vercel from 'vite-plugin-vercel';
 export default defineConfig({
   plugins: [vercel()],
   server: {
-    allowedHosts: ['carols2michel.kuguio.com.br'],
+    allowedHosts: [''],
   },
 })

@@ -13,7 +13,7 @@ export const HeaderWrapper = styled(ParallaxBanner)<HeaderWrapperProps>`
     position: relative;
     flex-direction: column;
     align-items: center;
-    background-color: #46817c;
+    background-color: #67967a;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -28,7 +28,8 @@ export const HeaderWrapper = styled(ParallaxBanner)<HeaderWrapperProps>`
             height: calc(100vh + 200px);
         `)}
     }
-    &>div:first-child {
+
+    & > div:first-child {
         background-image: linear-gradient(rgba(26, 77, 71, 0.5), rgba(85, 85, 85, 0.8)), url(${minhaFoto}) !important; /* Adiciona o gradiente com a imagem */
         opacity: 0.5;
         -moz-opacity: 0.5;

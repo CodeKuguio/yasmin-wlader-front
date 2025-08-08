@@ -1,7 +1,6 @@
 import styled, {css, keyframes} from 'styled-components'
 
 import minhaFoto from '../../assets/groom-putting-ring-bride-s-finger.jpg'
-import flower from '../../assets/flower-small.svg'
 import {device} from "../../App.theme.ts";
 import {ParallaxBanner} from "react-scroll-parallax";
 const slideFromLeft = keyframes`
@@ -116,7 +115,7 @@ export const HeaderWrapper = styled(ParallaxBanner)<HeaderWrapperProps>`
     position: relative;
     flex-direction: column;
     align-items: center;
-    background-color: #46817c;
+    background-color: #2f4538;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -372,7 +371,6 @@ export const WrapperContent = styled.div`
     position: relative;;
 
     &::before {
-        background-image: url(${flower});
         content: "";
         width: 20rem;
         height: 20rem;
@@ -399,7 +397,6 @@ export const WrapperContent = styled.div`
     }
 
     &::after {
-        background-image: url(${flower});
         content: "";
         width: 20rem;
         height: 20rem;

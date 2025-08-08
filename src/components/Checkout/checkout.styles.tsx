@@ -159,7 +159,7 @@ export const Button = styled.button<ButtonProps>`
     border-radius: 3px;
     cursor: pointer;
     &:hover{
-        background: ${props =>props.invert? '#f4f4f4': '#5ea0a0'};
+        background: ${props =>props.invert? '#f4f4f4': '#476955'};
     }
 `
 export const Search = styled.div`
@@ -252,7 +252,7 @@ export const ContentCard = styled.div`
 
                 span {
                 {
-                    color: #7adfdc;
+                    color: #5a856c;
                 }
                 }
             }

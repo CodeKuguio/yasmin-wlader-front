@@ -19,8 +19,8 @@ export interface StyleClosetTheme {
 }
 
 const colors = {
-    primary: '#14756c',
-    secondary: '#5ea0a0',
+    primary: '#2f4538',
+    secondary: '#4d725c',
 };
 
 const breakpoints = {
@@ -34,9 +34,9 @@ export const theme = {
     breakpoints,
     colors: {
         ...colors,
-        borderColor: '#72acae',
+        borderColor: '#598169',
         colorWhite: '#fff',
-        titleColor: '#5ea0a0',
+        titleColor: '#5c866e',
         defaultColor: '#939f9f',
     },
     measures: {

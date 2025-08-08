@@ -50,7 +50,7 @@ function AppCart() {
                     </p>
 
                     <p>Com carinho,<br/>
-                        Michel e Carol.</p>
+                        Yasmin & Wláder.</p>
                     <S.CardButton onClick={setClose}>Clique para continuar</S.CardButton>
                 </S.Card>
 

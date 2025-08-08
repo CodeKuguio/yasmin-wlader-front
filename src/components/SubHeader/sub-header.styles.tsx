@@ -10,7 +10,7 @@ export const HeaderWrapper = styled(ParallaxBanner)`
     position: relative;
     flex-direction: column;
     align-items: center;
-    background-color: #46817c;
+    background-color:  #2f4538;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;

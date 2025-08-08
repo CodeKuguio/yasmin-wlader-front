@@ -67,10 +67,10 @@ export const Card=styled.div`
 export const CardButton=styled.button`
     display: flex;
     flex: 1;
-    background-color: #5ea0a0;
+    background-color: #385243;
 
     &:hover {
-        background-color: #468080;
+        background-color: #517961;
     }
 
     cursor: pointer;

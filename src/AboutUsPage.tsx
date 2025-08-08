@@ -7,7 +7,6 @@ function AboutUsPage() {
     return (
             <>
                 <NavigationHeader></NavigationHeader>
-                <FirstSubHeader title={'Quem Somos'} id={'quem-somos'} invert={true}/>
                 <AboutUs/>
             </>
     )

@@ -11,7 +11,7 @@ export const LabelDate = styled.span`
     height: 70px;
     width: 70px;
     aspect-ratio: 1;
-    background: #72acae;
+    background: #456552;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -31,9 +31,9 @@ export const LabelDate = styled.span`
         top: auto;
         left: auto;
         right: 0;
-        &:after{
+        &:after {
             content: "";
-            width: calc(((100vw - 65px)/2) - 20px);
+            width: calc(((100vw - 65px) / 2) - 20px);
             display: block;
             height: 1px;
             background: #f0f0f0;
@@ -71,7 +71,7 @@ export const Content = styled.div`
         }
     }
     h3 {
-        color: #5ea8a6;
+        color: #2f4538;
         font-weight: 500;
         font-size: 3rem;
         margin-bottom: 1rem;

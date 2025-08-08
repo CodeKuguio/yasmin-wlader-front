@@ -14,7 +14,6 @@ import {ProductsProvider} from "./contexts/products-context";
 import {ToastContainer} from "react-toastify";
 import {Lgpd} from "./Lgpd.tsx";
 import {Checkout} from "./components/Checkout";
-import AboutUsPage from "./AboutUsPage.tsx";
 import TimeLinePage from "./TimeLinePage.tsx";
 
 
@@ -29,7 +28,6 @@ createRoot(document.getElementById('root')!).render(
                             <ToastContainer/>
                             <SmoothScroll>
                                 <Routes>
-                                    <Route path="/quem-somos" element={<AboutUsPage />}/>
                                     <Route path="/nossa-historia" element={<TimeLinePage />}/>
                                     <Route path="/confirmacao" element={<InvitePage />}/>
                                     <Route path="/checkout" element={<Checkout />}/>

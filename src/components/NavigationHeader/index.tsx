@@ -15,7 +15,6 @@ export const NavigationHeader = (props:NavigationHeaderProps) => {
     const {makeHeaderReady} = useReadyStore();
     const sections = [
         "home",
-        "quem-somos",
         "nossa-historia",
         "confirmacao",
         "presenteie-os-noivos",
@@ -74,9 +73,6 @@ export const NavigationHeader = (props:NavigationHeaderProps) => {
                 <ul>
                     <li {...activeClass("home")}>
                         <Link to="/">Home</Link>
-                    </li>
-                    <li {...activeClass("quem-somos")}>
-                        <Link to="/quem-somos">Quem Somos</Link>
                     </li>
                     <li {...activeClass("nossa-historia")}>
                         <Link to="/nossa-historia">Nossa História</Link>

@@ -9,7 +9,7 @@ export const MontserratTitle = styled.h1`
     font-weight: 500;
     font-style: normal;
     font-size: 3rem;
-    color: #5ea8a6;
+    color: #2f4538;
     align-self: center;
     @media ${device.mobile} {
         font-size: 2.2rem;
@@ -101,8 +101,8 @@ export const HorizontMarging = styled.div`
     border-bottom: var(--border-size) solid currentcolor;
     top: calc(var(--border-size) * -1) !important;;
     bottom: calc(var(--border-size) * -1) !important;;
-    border-top-color: #72acae;
-    border-bottom-color: #72acae;
+    border-top-color: #2f4538;
+    border-bottom-color: #517760;
 
     &::before {
         top: calc(var(--vertical-offset) - var(--border-size));
@@ -117,8 +117,8 @@ export const VerticalMarging = styled.div`
     border-right: var(--border-size) solid currentcolor;
     right: calc(var(--border-size) * -1) !important;
     left: calc(var(--border-size) * -1) !important;;
-    border-left-color: #72acae;
-    border-right-color: #72acae;
+    border-left-color: #2f4538;
+    border-right-color: #517760;
 
     &::before {
         top: calc(var(--offset) - var(--border-size));

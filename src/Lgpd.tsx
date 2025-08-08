@@ -94,8 +94,8 @@ export const Lgpd = () => {
                     </li>
                     <li><strong>Dados Pessoais:</strong> Qualquer dado que identifique ou possa identificar uma pessoa.
                     </li>
-                    <li><strong>Serviço:</strong> O site <a href="http://carols2michel.kuguio.com.br"
-                                                            target="_blank">carols2michel.kuguio.com.br</a>.
+                    <li><strong>Serviço:</strong> O site <a href=""
+                                                            target="_blank"></a>.
                     </li>
                     <li><strong>Prestador de Serviço:</strong> Terceiros contratados para apoiar a entrega do nosso
                         serviço.
