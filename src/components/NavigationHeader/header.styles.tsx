@@ -114,7 +114,7 @@ export const NavBar = styled.nav<NavBarProps>`
                 justify-content: center;
                 align-items: center;
                 text-decoration: none;
-                font-family: "Montserrat", "Open Sans", "Raleway", serif;
+                font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
                 font-optical-sizing: auto;
                 font-weight: 400;
                 font-style: normal;

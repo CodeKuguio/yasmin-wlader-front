@@ -219,7 +219,7 @@ export const NavBar = styled.nav<NavBarProps>`
                 justify-content: center;
                 align-items: center;
                 text-decoration: none;
-                font-family: "Montserrat", "Open Sans", "Raleway", serif;
+                font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
                 font-optical-sizing: auto;
                 font-weight: 400;
                 font-style: normal;
@@ -305,7 +305,7 @@ export const WrapperIcon = styled.div<WrapperIconProps>`
     }
 `
 export const HeaderText = styled.div`
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     display: flex;
     flex-direction: column;
     line-height: 8rem;

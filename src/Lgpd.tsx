@@ -34,7 +34,7 @@ export const Container = styled.section`
     gap: 2rem;
     text-align: justify;
 
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;

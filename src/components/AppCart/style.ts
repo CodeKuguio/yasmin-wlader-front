@@ -56,7 +56,7 @@ export const Card=styled.div`
     width: 90%;
     padding: 30px;
     font-size: 1.3rem;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     text-align: justify-all;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12), 0 1.5px 6px rgba(0, 0, 0, 0.08);
     display: flex;
@@ -77,7 +77,7 @@ export const CardButton=styled.button`
     border: none;
     padding: 20px;
     font-size: 1.6rem;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     color: #fff;
     text-align: center;
     justify-content: center;

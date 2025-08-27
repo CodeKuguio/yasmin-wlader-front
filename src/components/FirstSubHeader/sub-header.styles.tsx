@@ -69,7 +69,7 @@ export const ContainerSubHeader = styled.div<ContainerSubHeaderProps>`
 `;
 
 export const HeaderText = styled.div`
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     display: flex;
     flex-direction: column;
     font-style: normal;

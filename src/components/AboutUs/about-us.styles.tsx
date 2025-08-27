@@ -3,8 +3,8 @@ import flower from '../../assets/flower-large.svg'
 import {CardProps, WrapperCardProps} from "./about-us.types.tsx";
 import {device} from "../../App.theme.ts";
 
-export const MontserratTitle = styled.h1`
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+export const Eyesome ScriptTitle = styled.h1`
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
@@ -15,8 +15,8 @@ export const MontserratTitle = styled.h1`
         font-size: 2.2rem;
     }
 `
-export const MontserratP = styled.p`
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+export const Eyesome ScriptP = styled.p`
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;

@@ -18,7 +18,7 @@ export const LabelDate = styled.span`
     margin-left: -35px;
     top: 50%;
     margin-top: -35px;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -55,7 +55,7 @@ export const Content = styled.div`
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;

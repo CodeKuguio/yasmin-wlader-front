@@ -58,7 +58,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     * {
-        font-family: "Montserrat", "Open Sans", "Raleway", serif;
+        font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;

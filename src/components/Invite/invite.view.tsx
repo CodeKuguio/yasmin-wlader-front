@@ -53,14 +53,14 @@ export const Invite: React.FC = memo(() => {
                         <SectionCard>
                             <p>
                                 Querido <strong>{responseData?.title}</strong>,<br/>
-                                Você é muito especial para nós e, por isso, gostaríamos de convidá-lo a ser
-                                nosso <strong>Padrinho</strong>.
-                                Sua presença será essencial para tornar esse momento ainda mais especial. 🥂
+                                É com muito carinho que queremos convidá-lo para estar ao nosso lado como nosso Padrinho.
+
+                                Sua amizade, seu apoio e sua presença especial significam muito para nós. Ter você conosco nesse momento único tornará o nosso dia ainda mais inesquecível. 🥂💖
                             </p>
                             {element}
                             <p>
 
-                                Terno Cinza Claro e Sem Gravata
+                             Terno cinza médio e sem gravata.
                             </p>
                         </SectionCard>
                         <WrapperImage>
@@ -86,9 +86,10 @@ export const Invite: React.FC = memo(() => {
                         <SectionCard>
                             <p>
                                 Querida <strong>{responseData?.title}</strong>,<br/>
-                                É com muito prazer que convidamos você para ser nossa <strong>Madrinha</strong>. Sua
-                                luz, seu amor e sua presença especial certamente tornarão o nosso grande dia ainda mais
-                                inesquecivel. 💖
+                                É com muito carinho que queremos convidá-la para estar ao nosso lado como nossa Madrinha.
+
+                                Sua amizade, seu carinho e sua presença especial são muito importantes para nós. Ter você conosco nesse momento único tornará o nosso dia ainda mais inesquecível. 💖
+
                             </p>
                             {element}
                             <p>
@@ -97,15 +98,6 @@ export const Invite: React.FC = memo(() => {
                         </SectionCard>
                         <WrapperImage>
                             <strong>Paleta de cores</strong>
-                            <ColorPalettes>
-                                <ColorBox color={'rgb(250,225,221)'}/>
-                                <ColorBox color={'rgb(250,227,228)'}/>
-                                <ColorBox color={'rgb(250,215,217)'}/>
-                                <ColorBox color={'rgb(250,216,231)'}/>
-                                <ColorBox color={'rgb(249,215,225)'}/>
-                                <ColorBox color={'rgb(247,199,219)'}/>
-                                <ColorBox color={'rgb(246,204,215)'}/>
-                            </ColorPalettes>
                             <Image
                                 src={madrinhas}
                                 alt="Madrinhas"
@@ -116,21 +108,21 @@ export const Invite: React.FC = memo(() => {
             case 'madrinha_e_padrinho':
                 return (
                     <ContainerCard both={true}>
+                        
                         <SectionCard>
                             <p>
+                                ✨ Enfim, o grande dia está chegando! ✨
                                 Queridos <strong>{responseData?.title}</strong>,<br/>
-                                É com muito carinho que queremos convidá-los para estarem ao nosso lado como
-                                nossos <strong>padrinhos</strong>.
-                            </p>
-                            <p>
-                                A história de vocês, cheia de afeto, companheirismo e amor, é uma grande inspiração. A
-                                presença de vocês tornará esse dia ainda mais incrível.🥂💖
+                                É com muito carinho que queremos convidá-los para estarem ao nosso lado como nossos padrinhos.
+                                A amizade, o carinho e o exemplo de vocês são muito especiais para nós. Ter a presença de vocês nesse momento único tornará nosso dia ainda mais inesquecível. 🥂💖
+
+                                
                             </p>
                             {element}
                             <p>
                                 <strong>Orientações:</strong><br/>
-                                - Padrinho: Terno Cinza Claro e Sem Gravata<br/>
-                                - Madrinha: Traje na paleta de cores abaixo.<br/>
+                                - Padrinho: Terno cinza médio e sem gravata<br/>
+                                - Madrinha: Cada madrinha terá uma cor única, confira no manual entregue qual é a sua..<br/>
                             </p>
                         </SectionCard>
                         <ContainerImageCard>
@@ -152,15 +144,6 @@ export const Invite: React.FC = memo(() => {
                             </WrapperImage>
                             <WrapperImage>
                                 <strong>Paleta de cores feminana</strong>
-                                <ColorPalettes>
-                                    <ColorBox color={'rgb(250,225,221)'}/>
-                                    <ColorBox color={'rgb(250,227,228)'}/>
-                                    <ColorBox color={'rgb(250,215,217)'}/>
-                                    <ColorBox color={'rgb(250,216,231)'}/>
-                                    <ColorBox color={'rgb(249,215,225)'}/>
-                                    <ColorBox color={'rgb(247,199,219)'}/>
-                                    <ColorBox color={'rgb(246,204,215)'}/>
-                                </ColorPalettes>
                                 <Image
                                     src={madrinhas}
                                     alt="Madrinhas"
@@ -175,13 +158,17 @@ export const Invite: React.FC = memo(() => {
                 return (
                     <SectionCard>
                         <p>
-                            Com Deus guiando nossos passos, dividimos com alegria o começo de uma nova fase em nossas
-                            vidas.
-                            Convidamos <strong>{responseData?.title}</strong> para testemunhar e celebrar a nossa
-                            união diante de Deus,
-                            em um momento de fé, amor e gratidão.
 
-                            Esperamos por sua presença nesse dia abençoado e inesquecível.
+                        “Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.”
+                        Colossenses 3:14
+
+                        Yasmin Gonçalves Ferreira & Wláder Henrique de Jesus Nunes da Silva
+
+                        junto de seus pais
+                        Luciana Gonçalves Ferreira e Jeber Soares Ferreira
+                        Terezinha de Jesus da Silva e José dos Reis Nunes da Silva
+
+                        têm a alegria de convidar  <strong>{responseData?.title}</strong>  para a cerimônia religiosa de seu casamento.
                         </p>
                         {element}
                     </SectionCard>
@@ -223,14 +210,13 @@ export const Invite: React.FC = memo(() => {
                                     {renderMessage(
                                         <>
                                             <p>
-                                                Data: 27 de setembro de 2025<br/>
-                                                Local: Villaví - Recreio Internacional - Rua D 1550 - Ribeirao
-                                                Preto-SP <br/>
-                                                Horário: 16:30
+                                            📅 Data: 13 de dezembro de 2025
+                                            📍 Local: Galeria Jardim – Rua Oito, 301, Grajaú, Divinópolis - MG
+                                             🕔 Horário: 17h
                                             </p>
                                             <p>Por favor, confirme sua presença até o dia {format(new Date(responseData?.expirationDate||''),"dd 'de' MMMM 'de' yyyy",{locale: ptBR})}!</p>
                                             <p>
-                                                Com carinho, <strong>Yasmin </strong> & <strong>Wláder.</strong>
+                                                Com todo nosso carinho, <strong>Yasmin Gonçalves Ferreira </strong> & <strong> Wláder Henrique de Jesus Nunes da Silva.</strong>
                                             </p>
                                         </>
                                     )}
