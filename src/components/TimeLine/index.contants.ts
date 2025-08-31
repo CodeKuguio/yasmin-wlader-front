@@ -6,13 +6,7 @@ import capitolio from '../../assets/capitolio.jpg'
 import alianca from '../../assets/alianca.jpg'
 import argentina from '../../assets/argentina.jpg'
 import holambra2 from '../../assets/holambra2.jpg'
-import barrinha from '../../assets/barrinha.jpg'
-import cachoeira from '../../assets/cachoeira.jpg'
-import natal from '../../assets/natal.jpg'
-import noivado from '../../assets/noivado.jpg'
-import santa_rita from '../../assets/santa_rita.jpg'
-import pesca from '../../assets/pesca.jpg'
-import rifania from '../../assets/rifania.jpg'
+
 
 export interface TimeLineItemProps {
     title: string;
@@ -23,93 +17,88 @@ export interface TimeLineItemProps {
 
 export const TIME_LINE_ITEMS: TimeLineItemProps[] = [
     {
-        title: 'Corujão',
-        description: 'Nos vimos pela primeira vez ao vivo durante o Corujão, um evento de jogos da empresa. Entre risadas, partidas animadas e conversas leves, tudo simplesmente se encaixou.',
-        date: '19/08/2023',
+        title: 'UFLA',
+        description: 'Vi a Yasmin pela primeira vez no dia 27/02/2020 na recepção de calouros da UFLA\n' +
+            '(Universidade Federal de Lavras). Ela estava apresentando a Empresa Júnior do Curso de\n' +
+            'Administração Pública (a Alfa Pública Jr) para os calouros do curso (dentre eles, eu). Ela foi o\n' +
+            'primeiro motivo para que surgisse em mim o interesse de entrar nessa empresa. Achei ela\n' +
+            'linda, sentia que precisava me aproximar por algum motivo, mesmo sem que ela me\n' +
+            'conhecesse.',
+        date: '27/02/2020',
         image: inicio
     },
     {
-        title: 'Fim de ano',
-        description: 'Passamos a virada do ano juntos em Jaboticabal. Foi um dia incrível, repleto de momentos especiais, muitas risadas e, claro, um bom tempo aproveitando a piscina',
-        date: '31/12/2023',
+        title: 'Alfa Pública Jr.',
+        description: 'Quando entrei na Alfa Pública Jr, (em junho devido à pandemia), demorei muito tempo para\n' +
+            'conseguir mandar uma mensagem e falar que sentia algo por ela. O medo de não ser recíproco\n' +
+            'acabou atrasando um pouco o processo. Após criar coragem, finalmente, no dia 22 de Outubro\n' +
+            'de 2020, deixei o receio de lado e mandei uma mensagem para ela. A conversa foi natural, e\n' +
+            'quando mal percebemos estávamos conversando todos os dias. Ligávamos um para o outro e\n' +
+            'ficávamos horas e horas conversando. A verdade é que parecia que eu há conhecia há anos, e\n' +
+            'a cada dia, eu me encantava mais pela pessoa que a Yasmin se apresentava.',
+        date: '22/10/2020',
         image: piscina2
     },
     {
-        title: 'Namoro',
-        description: 'Ele me pediu em namoro no dia 1º de janeiro, logo após a virada do ano que passamos juntos. Foi um momento especial, o início de um novo ano e também de uma nova fase na nossa história.',
-        date: '01/01/2024',
+        title: 'Lavras',
+        description: 'Após um mês e meio de conversa, Yasmin veio para Lavras no dia 11/12/2020 para a imersão\n' +
+            'da Empresa Jr, e pudemos nos ver pessoalmente em um restaurante numa sexta feira à noite.\n' +
+            'Pude, então, materializar o amor em forma de pessoa.',
+        date: '11/12/2020',
         image: alianca
     },
     {
-        title: 'Guapé',
-        description: 'Ele conheceu minha família e, em uma das nossas viagens, fomos para a roça da minha avó, em Guapé. Pescamos e descobrimos um hobbie em comum. ',
-        date: '26/01/2024',
+        title: 'Imersão',
+        description: 'Passamos o sábado 12/12 juntos na imersão da Empresa Jr. A companhia da Yasmin alegrou o\n' +
+            'meu final de semana. Porém, despedi da Yasmin no sábado à noite, pois não sabia quando\n' +
+            'veria ela novamente já que domingo, dia 13/12, iríamos embora para nossas cidades (Bom\n' +
+            'Sucesso e Divinópolis). As aulas na UFLA seguiam suspensas devido à pandemia do Covid-19 e\n' +
+            'não havia expectativa de retorno. ',
+        date: '12/12/2020',
         image: primeira_pesca
     },
     {
-        title: 'Capitólio',
-        description: 'Fomos para capitólio e para vargem bonita, visitamos cachoeiras e rios. Foi bem legal!',
-        date: '17/03/2024',
+        title: 'Pedido de namoro',
+        description: 'Eu iria embora no domingo às 08:00 de ônibus enquanto Yasmin iria às 14:30, também de\n' +
+            'ônibus. Porém, quis o destino de Deus que amanhecesse chovendo, impossibilitando que eu\n' +
+            'fosse embora 08:00. O próximo ônibus era 13:00. Aproveitei do fato para ir até a casa da Sofia\n' +
+            '(onde Yasmin estava ficando naqueles 3 dias) para vê-la antes de ir embora. Conversamos\n' +
+            'bastante e algo me dizia que eu não poderia deixa-la ir embora sem que eu lhe fizesse um\n' +
+            'pedido muito importante: “Namora comigo?” – Sim, ela respondeu. E ali iniciou o nosso para\n' +
+            'sempre.',
+        date: '13/12/2020',
         image: capitolio
     },
     {
-        title: 'Escarpas do lago',
-        description: 'Michel conheceu os parentes da minha familia por parte de mãe. Nesse dia era o aniversário da minha mãe.',
-        date: '27/04/2024',
+        title: 'Graduação',
+        description: 'Vivemos momentos inesquecíveis juntos. Namoramos à distância um período, onde eu ia para\n' +
+            'Divinópolis frequentemente e Yasmin para Bom Sucesso e Lavras. Depois, a UFLA retornou as\n' +
+            'aulas e pudemos ficar mais próximos, inclusive fazer matérias juntos. Na graduação a Yasmin\n' +
+            'decidiu realizar um sonho que ela tinha, fazer um intercâmbio para Portugal. Quando me \n' +
+            'questionou se eu a apoiava não hesitei, afinal, amar é respeitar os sonhos individuais de cada\n' +
+            'um.',
+        date: '14/02/2022',
         image: piscina
     },
     {
-        title: 'Holambra',
-        description: 'Caminhamos pelos campos floridos de Holambra, visitamos o Moinho Povos Unidos e aproveitamos a culinária holandesa.',
-        date: '14/07/2024',
+        title: 'Intercâmbio',
+        description: 'Confesso que foram 6 meses difíceis, de muita saudade. Não houve um só dia que não\n' +
+            'pensasse nela e torcia para que seu retorno fosse breve. Em momento algum deixamos nosso\n' +
+            'amor esfriar, mesmo à distância. O amor, respeito e admiração perseveraram e em seu\n' +
+            'retorno pudemos matar uma saudade continental.',
+        date: '08/09/2022',
         image: holambra2
     },
     {
-        title: 'Bariloche',
-        description: 'Fomos para Bariloche, foi a primeira que viajamos para fora do Brasil. É uma cidade encantadora localizada na Patagônia, Argentina, conhecida por sua beleza natural deslumbrante. Comemoramos o nosso aniversário la no dia 09 de setembro o meu e dia 18 de setembro o do Michel.',
-        date: '15/09/2024',
+        title: 'Tiradentes',
+        description: 'Viajamos bastante durante esses quase 5 anos... Casca D’anta, Roça em Piumhi, Varginha,\n' +
+            'Cabo Frio, Mineirão, Capitólio e outros tanto locais incríveis, até chegar em Tiradentes, no dia\n' +
+            '03/05/2024... Passamos um final de semana em Tiradentes para comemorar o aniversário da\n' +
+            'Yasmin, porém, no dia 04/05/2024 quem ganhou o maior presente de todos fui eu: Pude ver\n' +
+            'ela dizer “sim” com os olhos carregados de emoção numa tarde de sábado, um sim para nosso\n' +
+            'amor, para nossa família e para a eternidade.',
+        date: '04/05/2024',
         image: argentina
     },
-    {
-        title: 'Noivado',
-        description: 'Ele me pediu em casamento em Holambra, e eu disse sim. Foi um momento mágico e inesquecível, rodeado pela beleza única da cidade, com suas flores e clima acolhedor. A emoção foi indescritível.',
-        date: '22/09/2024',
-        image: noivado
-    },
-    {
-        title: 'Rifaina',
-        description: 'Tivemos um dia inesquecível em Rifaina, navegando de lancha com pessoas especiais e colecionando lembranças felizes',
-        date: '20/10/2024',
-        image: rifania
-    },
-    {
-        title: 'Miguelópolis',
-        description: 'Fomos pescar tucunaré  de barco em Miguelópolis. O rio estava calmo, os peixes apareceram, mas depois o tempo fechou e choveu e saimos rapido com o barco deu muita adrenalina',
-        date: '26/10/2024',
-        image: pesca
-    },
-    {
-        title: 'Natal',
-        description: 'Passamos o Natal juntos em Divinópolis, celebrando com a minha família. Foi o nosso primeiro Natal juntos, e a experiência foi verdadeiramente especial.',
-        date: '25/12/2024',
-        image: natal
-    },
-    {
-        title: 'Vargem Bonita',
-        description: 'Visitamos as cachoeiras da Vargem Bonita. Com águas cristalinas que caem em quedas d\'água exuberantes, o lugar oferece um cenário encantador para os amantes da natureza e do ecoturismo',
-        date: '01/01/2025',
-        image: cachoeira
-    },
-    {
-        title: 'Barrinha',
-        description: 'Visitamos Barrinha, uma cidade encantadora no interior de São Paulo, fomos em um pesqueiro, conhecemos o rio mogi guaçu de barco foi uma experiência bem legal.',
-        date: '08/03/2025',
-        image: barrinha
-    },
-    {
-        title: 'Santa Rita do Passa Quatro',
-        description: 'Visitamos Santa Rita do Passa Quatro e tivemos o privilégio de conhecer a maior árvore do estado de São Paulo, um jequitibá-rosa que fica localizado no parque estadual vassununga.',
-        date: '30/03/2025',
-        image: santa_rita
-    },
+
 ]

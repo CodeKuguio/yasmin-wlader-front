@@ -56,7 +56,7 @@ export const Divider = styled.div`
 
 
 export const CountdownWrapper = styled.div`
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -78,7 +78,7 @@ export const CountdownWrapper = styled.div`
 `;
 
 export const Title = styled.h2`
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;

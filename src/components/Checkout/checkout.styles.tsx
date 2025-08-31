@@ -159,7 +159,7 @@ export const Button = styled.button<ButtonProps>`
     border-radius: 3px;
     cursor: pointer;
     &:hover{
-        background: ${props =>props.invert? '#f4f4f4': '#5ea0a0'};
+        background: ${props =>props.invert? '#f4f4f4': '#476955'};
     }
 `
 export const Search = styled.div`
@@ -195,7 +195,7 @@ export const ContentCard = styled.div`
     z-index: 2;
     display: flex;
     flex-direction: row;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -252,7 +252,7 @@ export const ContentCard = styled.div`
 
                 span {
                 {
-                    color: #7adfdc;
+                    color: #5a856c;
                 }
                 }
             }
@@ -264,7 +264,7 @@ export const Products = styled.div`
     z-index: 2;
     display: flex;
     flex-direction: column;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -303,7 +303,7 @@ export const Product = styled.div`
     z-index: 2;
     display: flex;
     flex-direction: row;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;

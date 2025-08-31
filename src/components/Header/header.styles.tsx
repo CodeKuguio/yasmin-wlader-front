@@ -1,7 +1,6 @@
 import styled, {css, keyframes} from 'styled-components'
 
 import minhaFoto from '../../assets/groom-putting-ring-bride-s-finger.jpg'
-import flower from '../../assets/flower-small.svg'
 import {device} from "../../App.theme.ts";
 import {ParallaxBanner} from "react-scroll-parallax";
 const slideFromLeft = keyframes`
@@ -116,7 +115,7 @@ export const HeaderWrapper = styled(ParallaxBanner)<HeaderWrapperProps>`
     position: relative;
     flex-direction: column;
     align-items: center;
-    background-color: #46817c;
+    background-color: #2f4538;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -220,7 +219,7 @@ export const NavBar = styled.nav<NavBarProps>`
                 justify-content: center;
                 align-items: center;
                 text-decoration: none;
-                font-family: "Montserrat", "Open Sans", "Raleway", serif;
+                font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
                 font-optical-sizing: auto;
                 font-weight: 400;
                 font-style: normal;
@@ -306,7 +305,7 @@ export const WrapperIcon = styled.div<WrapperIconProps>`
     }
 `
 export const HeaderText = styled.div`
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     display: flex;
     flex-direction: column;
     line-height: 8rem;
@@ -372,7 +371,6 @@ export const WrapperContent = styled.div`
     position: relative;;
 
     &::before {
-        background-image: url(${flower});
         content: "";
         width: 20rem;
         height: 20rem;
@@ -399,7 +397,6 @@ export const WrapperContent = styled.div`
     }
 
     &::after {
-        background-image: url(${flower});
         content: "";
         width: 20rem;
         height: 20rem;

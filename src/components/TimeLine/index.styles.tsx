@@ -11,14 +11,14 @@ export const LabelDate = styled.span`
     height: 70px;
     width: 70px;
     aspect-ratio: 1;
-    background: #72acae;
+    background: #456552;
     color: #fff;
     position: absolute;
     left: 50%;
     margin-left: -35px;
     top: 50%;
     margin-top: -35px;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -31,9 +31,9 @@ export const LabelDate = styled.span`
         top: auto;
         left: auto;
         right: 0;
-        &:after{
+        &:after {
             content: "";
-            width: calc(((100vw - 65px)/2) - 20px);
+            width: calc(((100vw - 65px) / 2) - 20px);
             display: block;
             height: 1px;
             background: #f0f0f0;
@@ -55,7 +55,7 @@ export const Content = styled.div`
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
-    font-family: "Montserrat", "Open Sans", "Raleway", serif;
+    font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -71,7 +71,7 @@ export const Content = styled.div`
         }
     }
     h3 {
-        color: #5ea8a6;
+        color: #2f4538;
         font-weight: 500;
         font-size: 3rem;
         margin-bottom: 1rem;
