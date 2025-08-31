@@ -3,7 +3,7 @@ import flower from '../../assets/flower-large.svg'
 import {CardProps, WrapperCardProps} from "./about-us.types.tsx";
 import {device} from "../../App.theme.ts";
 
-export const Eyesome ScriptTitle = styled.h1`
+export const EyesomeScriptTitle = styled.h1`
     font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -15,7 +15,7 @@ export const Eyesome ScriptTitle = styled.h1`
         font-size: 2.2rem;
     }
 `
-export const Eyesome ScriptP = styled.p`
+export const EyesomeScriptP = styled.p`
     font-family: "Eyesome Script", "KEDEM ULTRA LIGHT", "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
