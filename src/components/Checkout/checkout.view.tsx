@@ -91,7 +91,7 @@ export const Checkout: React.FC = memo(() => {
             quantity: product.quantity
         })));
         const order_nsu = response.data.id;
-        const redirect_url = 'https://carols2michel.kuguio.com.br/checkout'
+        const redirect_url = 'https://yasmin-wlader.vercel.app/checkout'
         const link = `https://checkout.infinitepay.io/${handle}?items=${items}&order_nsu=${order_nsu}&redirect_url=${redirect_url}&customer_name=${payload.name}&customer_email=${payload.email}`
         const a = document.createElement('a');
         a.href = link;
