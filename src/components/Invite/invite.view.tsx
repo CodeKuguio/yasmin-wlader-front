@@ -66,7 +66,6 @@ export const Invite: React.FC = memo(() => {
                         <WrapperImage>
                             <strong>Paleta de cores</strong>
                             <ColorPalettes>
-                                <ColorBox color={'#e9ecef'}/>
                                 <ColorBox color={'#edede9'}/>
                                 <ColorBox color={'#dee2e6'}/>
                                 <ColorBox color={'#ced4da'}/>
@@ -98,6 +97,14 @@ export const Invite: React.FC = memo(() => {
                         </SectionCard>
                         <WrapperImage>
                             <strong>Paleta de cores</strong>
+                            <ColorPalettes>
+                                <ColorBox color={'#D0592E'}/>
+                                <ColorBox color={'#D42D4B'}/>
+                                <ColorBox color={'#E1B03A'}/>
+                                <ColorBox color={'#3A6753'}/>
+                                <ColorBox color={'#DA2E76'}/>
+                                <ColorBox color={'#6A1260'}/>
+                            </ColorPalettes>
                             <Image
                                 src={madrinhas}
                                 alt="Madrinhas"

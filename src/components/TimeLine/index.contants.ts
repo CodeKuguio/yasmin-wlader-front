@@ -19,11 +19,11 @@ export const TIME_LINE_ITEMS: TimeLineItemProps[] = [
     {
         title: 'UFLA',
         description: 'Vi a Yasmin pela primeira vez no dia 27/02/2020 na recepção de calouros da UFLA\n' +
-            '(Universidade federal de Lavras). Ela estava apresentando a Empresa Júnior do Curso de\n' +
+            '(Universidade Federal de Lavras). Ela estava apresentando a Empresa Júnior do Curso de\n' +
             'Administração Pública (a Alfa Pública Jr) para os calouros do curso (dentre eles, eu). Ela foi o\n' +
             'primeiro motivo para que surgisse em mim o interesse de entrar nessa empresa. Achei ela\n' +
             'linda, sentia que precisava me aproximar por algum motivo, mesmo sem que ela me\n' +
-            'conhecesse..',
+            'conhecesse.',
         date: '27/02/2020',
         image: inicio
     },
@@ -35,14 +35,14 @@ export const TIME_LINE_ITEMS: TimeLineItemProps[] = [
             'de 2020, deixei o receio de lado e mandei uma mensagem para ela. A conversa foi natural, e\n' +
             'quando mal percebemos estávamos conversando todos os dias. Ligávamos um para o outro e\n' +
             'ficávamos horas e horas conversando. A verdade é que parecia que eu há conhecia há anos, e\n' +
-            'a cada dia, eu me encantava mais pela pessoa que a Yasmin se apresentava',
+            'a cada dia, eu me encantava mais pela pessoa que a Yasmin se apresentava.',
         date: '22/10/2020',
         image: piscina2
     },
     {
         title: 'Lavras',
         description: 'Após um mês e meio de conversa, Yasmin veio para Lavras no dia 11/12/2020 para a imersão\n' +
-            'da empresa Jr, e pudemos nos ver pessoalmente em um restaurante numa sexta feira à noite.\n' +
+            'da Empresa Jr, e pudemos nos ver pessoalmente em um restaurante numa sexta feira à noite.\n' +
             'Pude, então, materializar o amor em forma de pessoa.',
         date: '11/12/2020',
         image: alianca
@@ -76,7 +76,7 @@ export const TIME_LINE_ITEMS: TimeLineItemProps[] = [
             'aulas e pudemos ficar mais próximos, inclusive fazer matérias juntos. Na graduação a Yasmin\n' +
             'decidiu realizar um sonho que ela tinha, fazer um intercâmbio para Portugal. Quando me \n' +
             'questionou se eu a apoiava não hesitei, afinal, amar é respeitar os sonhos individuais de cada\n' +
-            'um',
+            'um.',
         date: '14/02/2022',
         image: piscina
     },
@@ -85,18 +85,18 @@ export const TIME_LINE_ITEMS: TimeLineItemProps[] = [
         description: 'Confesso que foram 6 meses difíceis, de muita saudade. Não houve um só dia que não\n' +
             'pensasse nela e torcia para que seu retorno fosse breve. Em momento algum deixamos nosso\n' +
             'amor esfriar, mesmo à distância. O amor, respeito e admiração perseveraram e em seu\n' +
-            'retorno pudemos matar uma saudade continental',
+            'retorno pudemos matar uma saudade continental.',
         date: '08/09/2022',
         image: holambra2
     },
     {
         title: 'Tiradentes',
-        description: 'Viajamos bastante durante esses quase 5 anos... Casca D’anta, Roça em Piumhi, Varginha MG,\n' +
+        description: 'Viajamos bastante durante esses quase 5 anos... Casca D’anta, Roça em Piumhi, Varginha,\n' +
             'Cabo Frio, Mineirão, Capitólio e outros tanto locais incríveis, até chegar em Tiradentes, no dia\n' +
             '03/05/2024... Passamos um final de semana em Tiradentes para comemorar o aniversário da\n' +
             'Yasmin, porém, no dia 04/05/2024 quem ganhou o maior presente de todos fui eu: Pude ver\n' +
             'ela dizer “sim” com os olhos carregados de emoção numa tarde de sábado, um sim para nosso\n' +
-            'amor, para nossa família e para a eternidade',
+            'amor, para nossa família e para a eternidade.',
         date: '04/05/2024',
         image: argentina
     },

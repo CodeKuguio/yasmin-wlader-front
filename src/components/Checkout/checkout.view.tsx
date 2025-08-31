@@ -84,7 +84,7 @@ export const Checkout: React.FC = memo(() => {
         }
         const response = await api.post('/cart', {order, ...payload});
 
-        const handle = 'carolina-tavares-090';
+        const handle = 'yasmin-goncalves24';
         const items = JSON.stringify(products.map(product => ({
             name: product.nome,
             price: product.preco * 100,
