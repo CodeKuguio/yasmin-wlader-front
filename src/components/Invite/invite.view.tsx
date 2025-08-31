@@ -60,7 +60,7 @@ export const Invite: React.FC = memo(() => {
                             {element}
                             <p>
 
-                             Terno cinza médio e sem gravata.
+                             Orientação: Terno cinza médio e sem gravata.
                             </p>
                         </SectionCard>
                         <WrapperImage>
@@ -92,7 +92,7 @@ export const Invite: React.FC = memo(() => {
                             </p>
                             {element}
                             <p>
-                                <strong>Vestido Longo Rosa Claro</strong>
+                                <strong>Orientação: Cada madrinha terá uma cor única, confira no manual qual é a sua...</strong>
                             </p>
                         </SectionCard>
                         <WrapperImage>
@@ -115,7 +115,7 @@ export const Invite: React.FC = memo(() => {
             case 'madrinha_e_padrinho':
                 return (
                     <ContainerCard both={true}>
-                        
+
                         <SectionCard>
                             <p>
                                 ✨ Enfim, o grande dia está chegando! ✨
@@ -123,13 +123,13 @@ export const Invite: React.FC = memo(() => {
                                 É com muito carinho que queremos convidá-los para estarem ao nosso lado como nossos padrinhos.
                                 A amizade, o carinho e o exemplo de vocês são muito especiais para nós. Ter a presença de vocês nesse momento único tornará nosso dia ainda mais inesquecível. 🥂💖
 
-                                
+
                             </p>
                             {element}
                             <p>
                                 <strong>Orientações:</strong><br/>
                                 - Padrinho: Terno cinza médio e sem gravata<br/>
-                                - Madrinha: Cada madrinha terá uma cor única, confira no manual entregue qual é a sua..<br/>
+                                - Madrinha: Cada madrinha terá uma cor única, confira no manual entregue qual é a sua...<br/>
                             </p>
                         </SectionCard>
                         <ContainerImageCard>
@@ -150,7 +150,15 @@ export const Invite: React.FC = memo(() => {
                                 />
                             </WrapperImage>
                             <WrapperImage>
-                                <strong>Paleta de cores feminana</strong>
+                                <strong>Paleta de cores feminina</strong>
+                                <ColorPalettes>
+                                    <ColorBox color={'#D0592E'}/>
+                                    <ColorBox color={'#D42D4B'}/>
+                                    <ColorBox color={'#E1B03A'}/>
+                                    <ColorBox color={'#3A6753'}/>
+                                    <ColorBox color={'#DA2E76'}/>
+                                    <ColorBox color={'#6A1260'}/>
+                                </ColorPalettes>
                                 <Image
                                     src={madrinhas}
                                     alt="Madrinhas"
@@ -216,11 +224,9 @@ export const Invite: React.FC = memo(() => {
                                     <h1>Enfim, o grande dia!</h1>
                                     {renderMessage(
                                         <>
-                                            <p>
-                                            📅 Data: 13 de dezembro de 2025
-                                            📍 Local: Galeria Jardim – Rua Oito, 301, Grajaú, Divinópolis - MG
-                                             🕔 Horário: 17h
-                                            </p>
+                                            <p> 📅 Data: 13 de dezembro de 2025 </p>
+                                            <p> 📍 Local: Galeria Jardim – Rua Oito, 301, Grajaú, Divinópolis - MG </p>
+                                            <p> 🕔 Horário: 17h</p>
                                             <p>Por favor, confirme sua presença até o dia {format(new Date(responseData?.expirationDate||''),"dd 'de' MMMM 'de' yyyy",{locale: ptBR})}!</p>
                                             <p>
                                                 Com todo nosso carinho, <strong>Yasmin Gonçalves Ferreira </strong> & <strong> Wláder Henrique de Jesus Nunes da Silva.</strong>
